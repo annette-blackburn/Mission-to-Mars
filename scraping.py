@@ -2,6 +2,7 @@
 from splinter import Browser
 from bs4 import BeautifulSoup as soup
 import pandas as pd
+import datetime as dt
 from webdriver_manager.chrome import ChromeDriverManager
 
 # Set up Splinter
@@ -125,3 +126,11 @@ def scrape_all():
     # Initiate headless driver for deployment
     executable_path = {'executable_path': ChromeDriverManager().install()}
     browser = Browser('chrome', **executable_path, headless=True)
+
+# Stop webdriver and return data
+   browser.quit()
+   return data
+
+if __name__ == "__main__":
+    # If running as script, print scraped data
+    print(scrape_all())

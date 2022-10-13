@@ -1,3 +1,13 @@
+# I had issues with splinter on my computer, so in order for this to possibly run, you must install the following:
+## from selenium import webdriver
+## from selenium.webdriver.common.by import By
+## import pandas as pd
+## from splinter import Browser
+## import datetime as dt
+## from bs4 import BeautifulSoup as soup
+## from webdriver_manager.chrome import ChromeDriverManager
+## from time import sleep
+
 ### Annette Donald Blackburn
 
 ## Mission to Mars Challenge
@@ -11,16 +21,7 @@ The Mars websites include:
 3. Galaxy Facts on Mars (https://galaxyfacts-mars.com)
 4. Astropedia's Lunar and Planetary Cartographic Catalog (https://marshemispheres.com)
 
-The software used for this project:
-1. Python
-2. Jupyter Notebooks
-3. Pandas, BeautifulSoup, Splinter, ChromeDriverManager, Flask, PyMongo
-4. MongoDB
-5. HTML5
-6. Bootstrap 3
-
 ### Final Product
-The result is a fully-functional web application that includes images, a table with facts comparing Mars to Earh, and the most up to date article title and brief description from NASA's webpage.
 
 ### Code
 The code is in 4 different files:
